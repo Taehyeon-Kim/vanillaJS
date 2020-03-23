@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: #2c3e50;
   color: whitesmoke;
@@ -29,4 +33,59 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 200px auto;
+  padding: 10px;
+  position: relative;
+}
+
+.css-clock {
+  text-align: center;
+  font-size: 60px;
+}
+
+.css-greetings {
+  margin: 10px;
+  text-align: center;
+  font-size: 48px;
+}
+.css-toDo {
+  text-align: center;
+  width: 406px;
+  margin: 0 auto;
+}
+.css-toDoForm input {
+  width: 400px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  font-size: 30px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+li {
+  padding: 5px;
+}
+
+.css-toDoForm input::placeholder {
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.css-toDoList {
+  list-style: none;
+  font-size: 30px;
+  text-align: left;
+  margin: 20px;
+}
+
+.css-weather {
+  text-align: right;
+  width: 400px;
+  margin: 0 auto;
 }
